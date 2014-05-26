@@ -67,21 +67,60 @@ Sprite.prototype.scale = function(scale) {
 };
 
 Sprite.prototype.save = function() {
-	var data = this.export(1);
+	var data = this.export({
+		scale: 1
+	});
+
 	data.image = this.image.src;
 	return data;
 };
 
-Sprite.prototype.export = function(scale) {
-	var data = {};
+Sprite.prototype.export = function(options) {
+	var data = {},
+		defaults = {
+			flipY: true,
+			scale: this._scale,
+			origin: [0.5, 0.5]
+		};
 
-	// Supply your own scale or use the actual scale
-	scale = scale || this._scale;
+	// Merge the options
+	if(options) 
+		for(var key in options) defaults[key] = options[key];
 
+	options = defaults;
+
+	// Set the name
 	data.name = this.name || sprite;
+
+	// Get and scale the width and height
+	var width = this.image.width * options.scale,
+		height = this.image.height * options.scale;
+
+	data.width = width;
+	data.height = height;
+
+	// Sort out the points
+	var self = this;
 	data.bodies = this.bodies.map(function(body) {
 		return body.points.map(function(point) {
-			return [Math.floor(point.x * scale), Math.floor(point.y * scale)	];
+			var x = point.x,
+				y = point.y;
+
+			// Scale the point
+			if(options.scale !== undefined) {
+				x *= options.scale;
+				y *= options.scale;
+			}
+
+			// Flip the axis
+			if(options.flipY)
+				y = height - y;
+
+			// Move around the anchor
+			x -= width * options.origin[0];
+			y -= height * options.origin[1];
+
+			return [ Math.floor(x), Math.floor(y) ];
 		});
 	});
 
