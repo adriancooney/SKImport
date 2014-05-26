@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		3AD1BA5319338DA500633451 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD1BA5219338DA500633451 /* Foundation.framework */; };
-		3AD1BA5819338DA500633451 /* SKImport.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3AD1BA5719338DA500633451 /* SKImport.h */; };
-		3AD1BA5A19338DA500633451 /* SKImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD1BA5919338DA500633451 /* SKImport.m */; };
 		3AD1BA6119338DA500633451 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD1BA6019338DA500633451 /* XCTest.framework */; };
 		3AD1BA6219338DA500633451 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD1BA5219338DA500633451 /* Foundation.framework */; };
 		3AD1BA6419338DA500633451 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD1BA6319338DA500633451 /* UIKit.framework */; };
 		3AD1BA6719338DA500633451 /* libSKImport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD1BA4F19338DA500633451 /* libSKImport.a */; };
 		3AD1BA6D19338DA500633451 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AD1BA6B19338DA500633451 /* InfoPlist.strings */; };
 		3AD1BA6F19338DA500633451 /* SKImportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD1BA6E19338DA500633451 /* SKImportTests.m */; };
+		3AD1BA7A19338E3C00633451 /* SKPhysicsBody+SKPhysicsBodyImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD1BA7919338E3C00633451 /* SKPhysicsBody+SKPhysicsBodyImport.m */; };
+		3AD1BA7B19338E3C00633451 /* SKPhysicsBody+SKPhysicsBodyImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD1BA7919338E3C00633451 /* SKPhysicsBody+SKPhysicsBodyImport.m */; };
+		3AD1BA7D19338FE200633451 /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = 3AD1BA7C19338FE200633451 /* example.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				3AD1BA5819338DA500633451 /* SKImport.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,15 +44,15 @@
 /* Begin PBXFileReference section */
 		3AD1BA4F19338DA500633451 /* libSKImport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSKImport.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD1BA5219338DA500633451 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		3AD1BA5619338DA500633451 /* SKImport-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SKImport-Prefix.pch"; sourceTree = "<group>"; };
-		3AD1BA5719338DA500633451 /* SKImport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKImport.h; sourceTree = "<group>"; };
-		3AD1BA5919338DA500633451 /* SKImport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKImport.m; sourceTree = "<group>"; };
 		3AD1BA5F19338DA500633451 /* SKImportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKImportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD1BA6019338DA500633451 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3AD1BA6319338DA500633451 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		3AD1BA6A19338DA500633451 /* SKImportTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SKImportTests-Info.plist"; sourceTree = "<group>"; };
 		3AD1BA6C19338DA500633451 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3AD1BA6E19338DA500633451 /* SKImportTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKImportTests.m; sourceTree = "<group>"; };
+		3AD1BA7819338E3C00633451 /* SKPhysicsBody+SKPhysicsBodyImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKPhysicsBody+SKPhysicsBodyImport.h"; sourceTree = "<group>"; };
+		3AD1BA7919338E3C00633451 /* SKPhysicsBody+SKPhysicsBodyImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKPhysicsBody+SKPhysicsBodyImport.m"; sourceTree = "<group>"; };
+		3AD1BA7C19338FE200633451 /* example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = example.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +110,9 @@
 		3AD1BA5419338DA500633451 /* SKImport */ = {
 			isa = PBXGroup;
 			children = (
-				3AD1BA5719338DA500633451 /* SKImport.h */,
-				3AD1BA5919338DA500633451 /* SKImport.m */,
 				3AD1BA5519338DA500633451 /* Supporting Files */,
+				3AD1BA7819338E3C00633451 /* SKPhysicsBody+SKPhysicsBodyImport.h */,
+				3AD1BA7919338E3C00633451 /* SKPhysicsBody+SKPhysicsBodyImport.m */,
 			);
 			path = SKImport;
 			sourceTree = "<group>";
@@ -120,7 +120,6 @@
 		3AD1BA5519338DA500633451 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3AD1BA5619338DA500633451 /* SKImport-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -129,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				3AD1BA6E19338DA500633451 /* SKImportTests.m */,
+				3AD1BA7C19338FE200633451 /* example.json */,
 				3AD1BA6919338DA500633451 /* Supporting Files */,
 			);
 			path = SKImportTests;
@@ -213,6 +213,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AD1BA7D19338FE200633451 /* example.json in Resources */,
 				3AD1BA6D19338DA500633451 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,7 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AD1BA5A19338DA500633451 /* SKImport.m in Sources */,
+				3AD1BA7A19338E3C00633451 /* SKPhysicsBody+SKPhysicsBodyImport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AD1BA7B19338E3C00633451 /* SKPhysicsBody+SKPhysicsBodyImport.m in Sources */,
 				3AD1BA6F19338DA500633451 /* SKImportTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +407,7 @@
 				3AD1BA7419338DA500633451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AD1BA7519338DA500633451 /* Build configuration list for PBXNativeTarget "SKImportTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +416,7 @@
 				3AD1BA7719338DA500633451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
