@@ -1,0 +1,198 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #032c3d;
+	color: #fff;
+	font-family: sans-serif;
+}
+
+.container {
+	width: 840px;
+	min-height: 460px;
+	margin: 0 auto;
+	background-color:#04384d;
+	background-image: linear-gradient(rgba(255,255,255,0.1) 2px, transparent 2px),
+	linear-gradient(90deg, rgba(255,255,255,0.1) 2px, transparent 2px),
+	linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px),
+	linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px);
+	background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+	background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px
+}
+
+header {
+	width: 840px;
+	margin: 0 auto;
+}
+
+header h1 {
+	margin: 4px;
+	font-size: 22px;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.column {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.column.half { width: 50%; }
+.column.third { width: 30%; } /* I know it's not a third. I changed my mind. */ 
+.column.twothirds { width: 70%; }
+
+.toolbar {
+	background: #041921;
+	padding: 4px;
+}
+
+.toolbar div {
+	text-align: right;
+}
+
+.toolbar div:first-child { text-align: right; }
+
+#add-image {
+	width: 180px;
+	float: left;
+}
+
+article {
+	height: 100%;
+	min-height: 440px;
+}
+
+article:last-child {
+	background-color: #04384d;
+	border-left: 2px solid rgba(255,255,255,0.1);
+	border-bottom: 2px solid rgba(255,255,255,0.1);
+}
+
+.bodies {
+	padding: 10px;
+}
+
+.bodies p {
+	display: block;
+	margin: 30px;
+	color: rgba(255, 255, 255, 0.3);
+	font-size: 14px;
+	text-align: center;
+}
+
+.body {
+	height: 100%;
+	overflow-y: scroll;
+	margin: 0 8px 8px;
+}
+
+.body h3 {
+	padding: 6px 0;
+	margin: 0;
+	color: #7698a6;
+	font-family: Arial;
+	font-size: 10px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.body .color-block {
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	border-radius: 2px;
+	margin: 0 3px 0 0 ;
+}
+
+.body li {
+	width: 100%;
+	list-style: none;
+	margin: 4px 0;
+}
+
+.body li input {
+	margin: 0;
+	width: 60px;
+	background: #387289;
+	border: none;
+	border-radius: 4px;
+	outline: none;
+	padding: 5px;
+	color: #fff;
+	font-size: 10px;
+	font-family: monospace;
+	text-align: center;
+}
+
+.body li input.active {
+	border: 1px solid aqua;
+}
+
+.body li input.invalid {
+	border: 1px solid red;
+}
+
+.body button {
+	width: 100%;
+	background: #03222e;
+	border-radius: 4px;
+	border: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: #06455e;
+	padding: 0;
+	margin-top: 4px;
+	display: block;
+	padding-bottom: 3px;
+	cursor: pointer;
+	outline: none;
+}
+
+.options {
+	background: #245467;
+	text-align: right;
+}
+
+.options label {
+	display: inline-block;
+	margin-left: 8px;
+	margin-right: 4px;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: rgba(255, 255, 255, 0.4);
+}
+
+.options input[type=number] {
+	background: rgba(0,0,0,0.2);
+	width: 40px;
+	border: none;
+	border-radius: 4px;
+	padding: 3px;
+	font-family: monospace;
+	color: #fff;
+	outline: none;
+}
+
+#sprite-pad {
+	border: 2px dashed #387289;
+	margin: 18px auto;
+	display: block;
+	background-color:#04384d;
+}
+
+footer {
+	margin: 0;
+	padding: 0;
+}
+
+footer p {
+	text-align: center;
+	color: #096990;
+	margin: 0;
+	padding: 8px;
+	font-size: 14px;
+}
+
+footer p a {
+	color: inherit;
+}

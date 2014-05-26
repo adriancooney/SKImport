@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spritekit Editor</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<header><h1>SpriteKit Sprite Builder</h1></header>
+<div class="container">
+	<div class="toolbar">
+		<div class="column twothirds">
+			<input type="file" id="add-image">
+		</div><div class="column third">
+			<button id="save">Save</button><button id="export">Export</button>
+		</div>
+	</div>
+
+	<article class="column twothirds sprite-pad">
+		<div class="options">
+			<button id="decompose" onclick="console.log('Feature coming soon.');">Decompose</button>
+			<label>Scale</label><input type="number" min="0" step="0.1" value="1" id="scale">
+			<label>Retina</label><input type="checkbox" id="scale-retina">
+		</div>
+		<canvas id="sprite-pad" height="250" width="250"></canvas>
+	</article><article class="column third">
+		<div class="options">
+			<button id="add-body">+ Body</button>
+			<button id="remove-body">&times; Body</button>
+			<button id="remove-point">&times; Point</button>
+		</div>
+		<div class="bodies">
+			<p><strong>No sprite added.</strong><br> Drop images anywhere or select using the filepicker to the left.</p>
+		</div>
+	</article>
+</div>
+<footer><p>Created by <a href="http://twitter.com/adrian_cooney">@adrian_cooney</a>. &#8984; + P &#65515; new point. &#8984; + B &#65515; new body. Arrow keys to scrub. Tab (+ shift) to switch points. &#8984; + [] to switch bodies.</p></footer>
+</body>
+<script type="text/javascript" src="function/Body.js"></script>
+<script type="text/javascript" src="function/Point.js"></script>
+<script type="text/javascript" src="function/Sprite.js"></script>
+<script type="text/javascript" src="function/Pad.js"></script>
+<script type="text/javascript" src="function/index.js"></script>
+<script type="text/javascript" src="example.js"></script>
+</html>
