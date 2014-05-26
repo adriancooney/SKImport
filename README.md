@@ -73,7 +73,7 @@ The editor has a number of shortcuts to make path editing a little bit easier.
 | (Shift +) &larr;, &rarr;, &darr;, &uarr; | Nudge the point. |
 
 #### Exporting
-Unfortunately, due to the cripplingly bad state of filesystem API's, SKImport editorcan't present a "Save as.." dialog without setting up a server and using a swf object. To circumvent this and enable SKImport's editor to work standalone, the editor opens a new tab with the content trusting you to CMD/Ctrl + S the contents to the appropriate position. Exported files a repositioned to the anchor point (0.5, 0.5), flipped vertically and scaled to the current scale value.
+Unfortunately, due to the cripplingly bad state of browser's filesystem APIs, SKImport editor can't present a "Save as.." dialog without setting up a server and using a swf object. To circumvent this and enable SKImport's editor to work standalone, the editor opens a new tab with the content trusting you to CMD/Ctrl + S the contents to the appropriate position. Exported files a repositioned to the anchor point (0.5, 0.5), flipped vertically and scaled to the current scale value.
 
 ## Help
 #### Installing Cocoapods
