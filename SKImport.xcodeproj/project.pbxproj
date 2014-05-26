@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AD1BA5319338DA500633451 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD1BA5219338DA500633451 /* Foundation.framework */; };
+		3AD1BA5819338DA500633451 /* SKImport.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3AD1BA5719338DA500633451 /* SKImport.h */; };
+		3AD1BA5A19338DA500633451 /* SKImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD1BA5919338DA500633451 /* SKImport.m */; };
+		3AD1BA6119338DA500633451 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD1BA6019338DA500633451 /* XCTest.framework */; };
+		3AD1BA6219338DA500633451 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD1BA5219338DA500633451 /* Foundation.framework */; };
+		3AD1BA6419338DA500633451 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD1BA6319338DA500633451 /* UIKit.framework */; };
+		3AD1BA6719338DA500633451 /* libSKImport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD1BA4F19338DA500633451 /* libSKImport.a */; };
+		3AD1BA6D19338DA500633451 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AD1BA6B19338DA500633451 /* InfoPlist.strings */; };
+		3AD1BA6F19338DA500633451 /* SKImportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD1BA6E19338DA500633451 /* SKImportTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AD1BA6519338DA500633451 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AD1BA4719338DA500633451 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AD1BA4E19338DA500633451;
+			remoteInfo = SKImport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3AD1BA4D19338DA500633451 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				3AD1BA5819338DA500633451 /* SKImport.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3AD1BA4F19338DA500633451 /* libSKImport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSKImport.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD1BA5219338DA500633451 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3AD1BA5619338DA500633451 /* SKImport-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SKImport-Prefix.pch"; sourceTree = "<group>"; };
+		3AD1BA5719338DA500633451 /* SKImport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKImport.h; sourceTree = "<group>"; };
+		3AD1BA5919338DA500633451 /* SKImport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKImport.m; sourceTree = "<group>"; };
+		3AD1BA5F19338DA500633451 /* SKImportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKImportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD1BA6019338DA500633451 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3AD1BA6319338DA500633451 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3AD1BA6A19338DA500633451 /* SKImportTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SKImportTests-Info.plist"; sourceTree = "<group>"; };
+		3AD1BA6C19338DA500633451 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3AD1BA6E19338DA500633451 /* SKImportTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKImportTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AD1BA4C19338DA500633451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD1BA5319338DA500633451 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD1BA5C19338DA500633451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD1BA6719338DA500633451 /* libSKImport.a in Frameworks */,
+				3AD1BA6119338DA500633451 /* XCTest.framework in Frameworks */,
+				3AD1BA6419338DA500633451 /* UIKit.framework in Frameworks */,
+				3AD1BA6219338DA500633451 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AD1BA4619338DA500633451 = {
+			isa = PBXGroup;
+			children = (
+				3AD1BA5419338DA500633451 /* SKImport */,
+				3AD1BA6819338DA500633451 /* SKImportTests */,
+				3AD1BA5119338DA500633451 /* Frameworks */,
+				3AD1BA5019338DA500633451 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AD1BA5019338DA500633451 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AD1BA4F19338DA500633451 /* libSKImport.a */,
+				3AD1BA5F19338DA500633451 /* SKImportTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AD1BA5119338DA500633451 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AD1BA5219338DA500633451 /* Foundation.framework */,
+				3AD1BA6019338DA500633451 /* XCTest.framework */,
+				3AD1BA6319338DA500633451 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AD1BA5419338DA500633451 /* SKImport */ = {
+			isa = PBXGroup;
+			children = (
+				3AD1BA5719338DA500633451 /* SKImport.h */,
+				3AD1BA5919338DA500633451 /* SKImport.m */,
+				3AD1BA5519338DA500633451 /* Supporting Files */,
+			);
+			path = SKImport;
+			sourceTree = "<group>";
+		};
+		3AD1BA5519338DA500633451 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AD1BA5619338DA500633451 /* SKImport-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AD1BA6819338DA500633451 /* SKImportTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AD1BA6E19338DA500633451 /* SKImportTests.m */,
+				3AD1BA6919338DA500633451 /* Supporting Files */,
+			);
+			path = SKImportTests;
+			sourceTree = "<group>";
+		};
+		3AD1BA6919338DA500633451 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AD1BA6A19338DA500633451 /* SKImportTests-Info.plist */,
+				3AD1BA6B19338DA500633451 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AD1BA4E19338DA500633451 /* SKImport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AD1BA7219338DA500633451 /* Build configuration list for PBXNativeTarget "SKImport" */;
+			buildPhases = (
+				3AD1BA4B19338DA500633451 /* Sources */,
+				3AD1BA4C19338DA500633451 /* Frameworks */,
+				3AD1BA4D19338DA500633451 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKImport;
+			productName = SKImport;
+			productReference = 3AD1BA4F19338DA500633451 /* libSKImport.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3AD1BA5E19338DA500633451 /* SKImportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AD1BA7519338DA500633451 /* Build configuration list for PBXNativeTarget "SKImportTests" */;
+			buildPhases = (
+				3AD1BA5B19338DA500633451 /* Sources */,
+				3AD1BA5C19338DA500633451 /* Frameworks */,
+				3AD1BA5D19338DA500633451 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AD1BA6619338DA500633451 /* PBXTargetDependency */,
+			);
+			name = SKImportTests;
+			productName = SKImportTests;
+			productReference = 3AD1BA5F19338DA500633451 /* SKImportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AD1BA4719338DA500633451 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Adrian Cooney";
+			};
+			buildConfigurationList = 3AD1BA4A19338DA500633451 /* Build configuration list for PBXProject "SKImport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3AD1BA4619338DA500633451;
+			productRefGroup = 3AD1BA5019338DA500633451 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AD1BA4E19338DA500633451 /* SKImport */,
+				3AD1BA5E19338DA500633451 /* SKImportTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AD1BA5D19338DA500633451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD1BA6D19338DA500633451 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AD1BA4B19338DA500633451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD1BA5A19338DA500633451 /* SKImport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD1BA5B19338DA500633451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD1BA6F19338DA500633451 /* SKImportTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AD1BA6619338DA500633451 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AD1BA4E19338DA500633451 /* SKImport */;
+			targetProxy = 3AD1BA6519338DA500633451 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AD1BA6B19338DA500633451 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AD1BA6C19338DA500633451 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AD1BA7019338DA500633451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3AD1BA7119338DA500633451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AD1BA7319338DA500633451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SKImport.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKImport/SKImport-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3AD1BA7419338DA500633451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SKImport.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKImport/SKImport-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3AD1BA7619338DA500633451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKImport/SKImport-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SKImportTests/SKImportTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3AD1BA7719338DA500633451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKImport/SKImport-Prefix.pch";
+				INFOPLIST_FILE = "SKImportTests/SKImportTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AD1BA4A19338DA500633451 /* Build configuration list for PBXProject "SKImport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD1BA7019338DA500633451 /* Debug */,
+				3AD1BA7119338DA500633451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AD1BA7219338DA500633451 /* Build configuration list for PBXNativeTarget "SKImport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD1BA7319338DA500633451 /* Debug */,
+				3AD1BA7419338DA500633451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3AD1BA7519338DA500633451 /* Build configuration list for PBXNativeTarget "SKImportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD1BA7619338DA500633451 /* Debug */,
+				3AD1BA7719338DA500633451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AD1BA4719338DA500633451 /* Project object */;
+}
