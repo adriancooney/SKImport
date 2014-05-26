@@ -1,10 +1,12 @@
-//
-//  SKPhysicsBody+SKPhysicsBodyImport.h
-//  SKImport
-//
-//  Created by Adrian Cooney on 26/05/2014.
-//  Copyright (c) 2014 Adrian Cooney. All rights reserved.
-//
+/**
+ * @author Adrian Cooney <cooney.adrian@gmail.com>
+ * @license MIT
+ * @homepage http://github.com/adriancooney/SKImport
+ *
+ * Be sure to couple this with the editor!
+ */
+
+#import <Foundation/Foundation.h>
 #import <SpriteKit/SpriteKit.h>
 
 @interface SKPhysicsBody (SKPhysicsBodyImport)
