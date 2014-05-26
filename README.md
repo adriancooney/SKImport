@@ -29,7 +29,11 @@ And install
 	$ pod install
 
 ##### 4. Import your sprite
-Import your sprite in your code with the following:
+Import your `SKImport` in your classes header (`.h`) file.
+
+	#import <SKPhysicsBody+SKPhysicsBodyImport.h>
+
+Load your sprite and set it as the `physicsBody` on your sprite.
 
     SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Sprite.png"];
 
