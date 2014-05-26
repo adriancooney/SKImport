@@ -31,10 +31,13 @@ And install
 ##### 4. Import your sprite
 Import your `SKImport` in your classes header (`.h`) file.
 
+```Objective-C
 	#import <SKPhysicsBody+SKPhysicsBodyImport.h>
+```
 
 Load your sprite and set it as the `physicsBody` on your sprite.
 
+```Objective-C
     SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Sprite.png"];
 
     // Find your body file
@@ -42,6 +45,7 @@ Load your sprite and set it as the `physicsBody` on your sprite.
 
     // Add your physics body
     sprite.physicsBody = [SKPhysicsBody bodyWithFile: bodyFile];
+ ```
 
  Done! Congratulations. You're now using complex physics bodies with SpriteKit. Be sure to take a look at SpriteKit's quirks below and how to use the editor.
 
